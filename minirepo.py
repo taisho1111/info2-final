@@ -73,7 +73,7 @@ class App:
     pyxel.init(100,200)
     flag = False
     def __init__(self):
-        pyxel.load("/Users/taishotakahashi/fit2/jump_game.pyxres")
+        pyxel.load("jump_game.pyxres")
         self.rectn = 10
         self.start = True
         self.goal = False
